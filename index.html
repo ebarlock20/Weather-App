@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form id="search-city">
+        <input type="text" id="city" placeholder="Enter a city..." />
+        <input type="submit" id="search" value="Search" />
+      </form>
+      <div class="flex-container">
+        <div class="left-align">
+          <h1><span id="city-name">London</span></h1>
+
+          <p class="current-info">
+            <span id="day-and-time"> Monday 11:39</span>, mostly sunny <br />
+            Humidity: <strong>49%</strong>, Wind: <strong>4mph</strong><br />
+            <br />
+          </p>
+        </div>
+        <div class="current-temp">
+          <strong>
+            <span class="temp" id="icon">☀️ </span>
+            <span class="temp" id="current-temp">26</span></strong
+          >
+          <span class="unit">ºC</span>
+        </div>
+      </div>
+      <footer>
+        This project was coded by <a href="">Emma B</a> and is on
+        <a href="">GitHub</a> and hosted on <a href="">Netlify</a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

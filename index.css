@@ -1,0 +1,93 @@
+body {
+  background: #f0f8ff;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.content {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 700px;
+  box-shadow: 1px 9px 16px -2px rgba(159, 219, 255, 0.47);
+}
+
+form {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+}
+
+form #city {
+  width: 70%;
+  border-radius: 6px;
+  border: none;
+  background: rgba(207, 228, 240, 0.47);
+  padding: 15px;
+  font-size: 15px;
+}
+
+form #search {
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(43, 11, 248, 0.725);
+  color: white;
+  font-size: 15px;
+  width: 20%;
+  margin-left: 15px;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-align {
+  width: 100%;
+  padding: 50px;
+}
+
+.current-temp {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  font-size: small;
+  padding: 50px;
+  margin-top: -30px;
+}
+
+.temp {
+  font-size: 60px;
+}
+
+.unit {
+  font-size: 28px;
+  position: relative;
+  top: 8px;
+}
+
+.current-info {
+  color: #939393;
+  margin-top: 10px;
+}
+
+.current-info strong {
+  color: #f5a1a6;
+}
+
+footer {
+  color: #939393;
+  margin: 20px;
+  font-size: 15px;
+  text-align: center;
+}
